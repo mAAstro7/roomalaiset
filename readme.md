@@ -1,0 +1,1 @@
+Run program in terminal/cmd/etc: "node index.js"
