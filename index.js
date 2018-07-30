@@ -3,7 +3,7 @@ const romanNumberValues = require('./Values.js');
 const romanNumberTranslator = new romanNumberValues();
 
 
-    //function that return number from string which contains roman number
+    //function that returns number from string which contains roman number
     function translateRomanNumber(str) {
         const strlenght = str.length;
 
@@ -41,7 +41,7 @@ const romanNumberTranslator = new romanNumberValues();
         let translated = translateRomanNumber(romanNumber.toString().trim());
         console.log("Syötit roomalaisen numeron " + 
             romanNumber.toString().trim() + " ja se on käännettynä: " + translated);
-        console.log("Halutessasi syötä uusi roomalaine numero");
+        console.log("Halutessasi syötä uusi roomalainen numero");
     });
         
     }
